@@ -9,6 +9,7 @@ class MainQuiz extends StatefulWidget {
   @override
   State<MainQuiz> createState() {
     return _MainQuizState();
+    
   }
 }
 
@@ -57,6 +58,7 @@ class _MainQuizState extends State<MainQuiz> {
     }
 
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
         home: Scaffold(
             body: Container(
       decoration: const BoxDecoration(
